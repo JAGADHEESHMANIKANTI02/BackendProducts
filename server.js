@@ -15,7 +15,7 @@ const { errorHandler, notFoundHandler } = require('./middleware/errorHandler');
 
 // Initialize Express app
 const app = express();
-const PORT = process.env.PORT || DEFAULT_PORT;
+const PORT = 10000|| process.env.PORT ;
 
 // GLOBAL MIDDLEWARE
 
