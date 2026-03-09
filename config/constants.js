@@ -4,7 +4,7 @@
 
 module.exports = {
   // Server Configuration
-  DEFAULT_PORT: 8000,
+  DEFAULT_PORT: 5000,
   NODE_ENV: process.env.NODE_ENV || 'development',
 
   // API Response Messages
